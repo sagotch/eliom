@@ -233,6 +233,7 @@ val get_persistent_cookies :
 val get_data_cookies :
   unit -> string Eliom_common.Full_state_name_table.t
 
+
 (** Returns [true] if the request was done by a client side Eliom program,
     which was expecting to receive a new HTML page to display inside
     the process. *)
